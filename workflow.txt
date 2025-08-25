@@ -1,0 +1,32 @@
+ ┌──────────────────┐
+ │   Start Program   │
+ └────────┬─────────┘
+          │
+          ▼
+ ┌──────────────────┐
+ │  Main Menu (App  │
+ │  Selection Screen│
+ │  - Arrow/Hotkeys │
+ │  - Press Enter   │
+ └────────┬─────────┘
+          │ Select
+          ▼
+ ┌──────────────────┐
+ │   Mini App (N)   │
+ │   - Runs logic   │
+ │   - Can exit     │
+ └────────┬─────────┘
+          │ Exit to menu
+          ▼
+ ┌──────────────────┐
+ │ Back to Main Menu│
+ └──────────────────┘
+
+
+
+godtui/
+│── main.go          # Entry point
+│── app.go           # App + menu handling
+│── miniapps/
+│     ├── hello.go   # Example mini app
+│     └── counter.go # Example mini app
